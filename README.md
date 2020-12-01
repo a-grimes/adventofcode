@@ -3,4 +3,4 @@ My first full run attempt at all challenges from the 2020 Advent of Code competi
 ## Run It
 My solutions are all terminal based at this point. Currently, each day is run independently.
 
-`python3 days/dayN.py days/dayN.input
+`python3 days/dayN.py days/dayN.input`
