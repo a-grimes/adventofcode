@@ -2,12 +2,11 @@
 
 import os
 
-DAY = "DAY <>"
+DAY = "DAY 1"
 
 def PrepareList(aList):
-    # handle additional list preparation/manipulation
-    # ex: numList = [int(item) for item in aList]
-    return aList
+    numList = [int(item) for item in aList]
+    return numList
 
 def PrintAnswers(aPart1, aPart2):
     print (DAY)
@@ -17,9 +16,15 @@ def PrintAnswers(aPart1, aPart2):
 def Answer(aList):
     # part 1
     part1 = "?"
-        
+    for item in aList:
+        if ((2020-item) in aList):
+            part1 = item * (2020-item)
+        for item2 in aList:
+            if ((2020-item-item2) in aList):
+                part2 = item * item2 * (2020-item-item2)
+    
     # part 2
-    part2 = "?"
+    # part2 = "?"
 
     PrintAnswers(part1, part2)
     
