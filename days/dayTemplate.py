@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+'''
+
+'''
+
 import os
 
 DAY = "DAY <>"

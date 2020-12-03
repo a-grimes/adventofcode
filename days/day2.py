@@ -66,7 +66,7 @@ def Answer(aList):
         letter = letter.strip()[:-1]
 
         count = len(re.findall(re.escape(letter), pw))
-        if count in range(int(ruleMin), int(ruleMax)+1):
+        if count in range(int(ruleMin), int(ruleMax)+1): # range max is not inclusive
             part1+=1
         
         if ((pw[int(ruleMin)-1] == letter) ^ (pw[int(ruleMax)-1] == letter)):
