@@ -15,11 +15,14 @@ def PrintAnswers(aPart1, aPart2):
     print ("  Part 2:  {}".format(aPart2))
 
 def Answer(aList):
-    # part 1
     part1 = "?"
-        
-    # part 2
     part2 = "?"
+
+    # DO IT
+
+
+
+    #
 
     PrintAnswers(part1, part2)
     
@@ -32,9 +35,9 @@ def Main():
         lines = [line.strip() for line in fh]
     
     # Prepare line list (as necessary)
-    numList = PrepareList(lines)
+    modList = PrepareList(lines)
     # Part 1/2 function call(s)
-    Answer(numList)
+    Answer(modList)
 
 # if run stand-alone
 if __name__ == '__main__':
