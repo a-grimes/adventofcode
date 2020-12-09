@@ -107,7 +107,6 @@ def Answer(aList):
             if index >= width:
                 index %= width
             row += array[1]
-        print (part2temp)
         part2 *= part2temp
     #
 
